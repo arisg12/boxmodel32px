@@ -1,0 +1,53 @@
+.container {
+  position: relative;
+}
+nav {
+  position: absolute;
+  left: 0px;
+  width: 16px;
+}
+section {
+  /* position is static by default */
+  margin-left: 16px;
+}
+section {
+  /* position is static by default */
+  margin-left: 10px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 10px;
+  background-color: red;
+  width: 100%;
+}
+body {
+  margin-bottom: 10px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 16px;
+  background-color: orange;
+  width: 100%;
+}
+body {
+  margin-bottom: 16px;
+}
+section {
+  /* position is static by default */
+  margin-left: 32px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 32px;
+  background-color: yellow;
+  width: 100%;
+}
+body {
+  margin-bottom: 32px;
+}
